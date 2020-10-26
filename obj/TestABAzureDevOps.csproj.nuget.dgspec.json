@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\TestABAzureDevOps.csproj": {}
+    "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\TestABAzureDevOps.csproj": {
+    "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\TestABAzureDevOps.csproj",
+        "projectUniqueName": "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj",
         "projectName": "TestABAzureDevOps",
-        "projectPath": "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\TestABAzureDevOps.csproj",
+        "projectPath": "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj",
         "packagesPath": "C:\\Users\\bbenz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\obj\\",
+        "outputPath": "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bbenz\\AppData\\Roaming\\NuGet\\NuGet.Config"

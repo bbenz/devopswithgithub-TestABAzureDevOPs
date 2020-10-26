@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wm41q2+tjzMIJe6bXmPHGwtG4+WqvEBj+1vg9idi3jvAJBkTFGLN2QZuekXNjuCaOKIJllV5PfvwqDKvJwz4yw==",
+  "dgSpecHash": "s27uQvqKRq3XBDePwE2+Y57o7gXK0CrYzTPd3hO5JHoBh9goNV1ArA8lbkRL9KIYGg3+eGUgTJr4oTTV3yPjuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bbenz\\Documents\\GitHub\\TestABAzureDevOps\\TestABAzureDevOps.csproj",
+  "projectFilePath": "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
