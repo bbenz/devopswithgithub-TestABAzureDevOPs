@@ -6,17 +6,13 @@
 trigger:
 - main
 
+pool:
+  vmImage: 'windows-latest'
+
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   
-stages:
-- stage: build
-  jobs:
-  - job: BuildJob
-    pool:
-      vmImage: 'windows-latest'
-
 steps:
 - task: DotNetCoreCLI@2
   displayName: Build
