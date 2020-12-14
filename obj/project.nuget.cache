@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s27uQvqKRq3XBDePwE2+Y57o7gXK0CrYzTPd3hO5JHoBh9goNV1ArA8lbkRL9KIYGg3+eGUgTJr4oTTV3yPjuw==",
+  "dgSpecHash": "tD5yuHhGZ4i67IwK41q5afnHmGXo0+BEc/l/n1XVo0vvKDUzCRC4rtES1OhrwJXBC+et09lbPCAP87hV4Jzilw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bbenz\\Documents\\GitHub\\devopswithgithub-TestABAzureDevOPs\\TestABAzureDevOps.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bbenz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\bbenz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

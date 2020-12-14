@@ -37,7 +37,6 @@ C:\Users\bbenz\Documents\GitHub\TestABAzureDevOps\obj\Debug\netcoreapp3.1\TestAB
 C:\Users\bbenz\Documents\GitHub\TestABAzureDevOps\obj\Debug\netcoreapp3.1\TestABAzureDevOps.csproj.CopyComplete
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\TestABAzureDevOps.exe
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\TestABAzureDevOps.deps.json
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\bin\Debug\netcoreapp3.1\TestABAzureDevOps.runtimeconfig.json
@@ -72,3 +71,4 @@ C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\obj\Debug\net
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\obj\Debug\netcoreapp3.1\TestABAzureDevOps.pdb
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\obj\Debug\netcoreapp3.1\TestABAzureDevOps.genruntimeconfig.cache
 C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\obj\Debug\netcoreapp3.1\TestABAzureDevOps.csproj.CopyComplete
+C:\Users\bbenz\Documents\GitHub\devopswithgithub-TestABAzureDevOPs\obj\Debug\netcoreapp3.1\scopedcss\bundle\TestABAzureDevOps.styles.css
