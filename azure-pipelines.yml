@@ -11,7 +11,7 @@ pool:
 
 steps:
 - bash: |
-    SEARCH_PATH=$PATH  # or any colon-delimited list of paths
+    SEARCH_PATH= /home/vsts/work/1/s/  # or any colon-delimited list of paths
     IFS=':' read -r -a PathDirs <<< "$SEARCH_PATH"
     echo "##[debug] Found directories"
     for element in "${PathDirs[@]}"; do
