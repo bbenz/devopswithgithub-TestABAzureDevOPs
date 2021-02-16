@@ -18,7 +18,7 @@ steps:
 
 - task: Maven@3
   inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/bbenz/devopswithgithub-TestABAzureDevOPs@main/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
@@ -26,7 +26,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-
 
 - task: CopyFiles@2
   displayName: 'Copy File to: $(TargetFolder)'
