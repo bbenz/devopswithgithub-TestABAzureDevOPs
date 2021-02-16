@@ -13,8 +13,9 @@ steps:
 - task: Maven@1
   displayName: 'Maven $(mavenPOMFile)'
   inputs:
-    mavenPomFile: pom.xml
+    mavenPomFile: 'devopsforjavashops-TestABAzureDevOPs/pom.xml'
     testResultsFiles: '**/TEST*.xml'
+
 
 - task: CopyFiles@2
   displayName: 'Copy File to: $(TargetFolder)'
@@ -26,6 +27,7 @@ steps:
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     flattenFolders: true
 
+    
 - task: CopyFiles@2
   displayName: 'Copy ARM templates'
   inputs:
