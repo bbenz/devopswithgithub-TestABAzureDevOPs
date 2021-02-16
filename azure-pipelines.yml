@@ -7,8 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Azure Pipelines
-  demands: maven
+  vmImage: 'ubuntu-16.04'
 
 steps:
 - task: Maven@3
