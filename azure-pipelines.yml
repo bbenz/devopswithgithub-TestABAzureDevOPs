@@ -15,7 +15,7 @@ steps:
 - task: Maven@1
   displayName: 'Maven $(mavenPOMFile)'
   inputs:
-    mavenPomFile: pom.xml
+    mavenPomFile: /pom.xml
 
 - task: CopyFiles@2
   displayName: 'Copy File to: $(TargetFolder)'
