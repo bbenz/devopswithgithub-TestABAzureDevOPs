@@ -10,16 +10,11 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 steps:
-- task: Maven@3
+- task: Maven@1
+  displayName: 'Maven $(mavenPOMFile)'
   inputs:
-    mavenPomFile: 'devopswithgithub-TestABAzureDevOPs/pom.xml'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    javaHomeOption: 'JDKVersion'
-    mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
-    sonarQubeRunAnalysis: false
+    mavenPomFile: pom.xml
+    testResultsFiles: '**/TEST*.xml'
 
 - task: CopyFiles@2
   displayName: 'Copy File to: $(TargetFolder)'
