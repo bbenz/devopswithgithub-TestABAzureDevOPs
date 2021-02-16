@@ -10,11 +10,22 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 steps:
-- task: Maven@1
-  displayName: 'Maven $(mavenPOMFile)'
+- task: ExtractFiles@1
   inputs:
-    mavenPomFile: 'devopsforjavashops-TestABAzureDevOPs/pom.xml'
-    testResultsFiles: '**/TEST*.xml'
+    archiveFilePatterns: '*.zip'
+    destinationFolder: '$(Build.SourcesDirectory)'
+    cleanDestinationFolder: false
+
+- task: Maven@3
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/{zip file name}/devopswithgithub-TestABAzureDevOPs/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.8'
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'package'
 
 
 - task: CopyFiles@2
