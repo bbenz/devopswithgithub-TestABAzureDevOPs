@@ -18,7 +18,7 @@ steps:
 
 - task: Maven@3
   inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)devopswithgithub-TestABAzureDevOPs/pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
