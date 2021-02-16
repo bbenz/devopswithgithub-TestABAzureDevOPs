@@ -10,7 +10,13 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 steps:
-
+steps:
+- task: ExtractFiles@1
+  inputs:
+    archiveFilePatterns: '**/*.zip'
+    cleanDestinationFolder: true
+    overwriteExistingFiles: false
+    
 - task: Maven@3
   inputs:
     mavenPomFile: '$(Build.SourcesDirectory)/pom.xml'
